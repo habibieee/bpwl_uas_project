@@ -14,7 +14,7 @@
 
 </head>
 
-<body class="img js-fullheight" style="background-image: url(images/bg.jpg);">
+<body class="img js-fullheight" style="background-image: url(../../assets/images/bg.jpg);">
     <section class="ftco-section">
         <div class="container">
             <div class="row justify-content-center">
@@ -64,10 +64,10 @@
         </div>
     </section>
 
-    <script src="js/jquery.min.js"></script>
-    <script src="js/popper.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/main.js"></script>
+    <script src="<?php echo base_url(); ?>/assets/js/jquery.min.js"></script>
+    <script src="<?php echo base_url(); ?>/assetsjs/popper.js"></script>
+    <script src="<?php echo base_url(); ?>/assetsjs/bootstrap.min.js"></script>
+    <script src="<?php echo base_url(); ?>/assetsjs/main.js"></script>
 
 </body>
 
